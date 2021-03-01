@@ -1,0 +1,21 @@
+.wrapper {
+  font-family: 'Inter', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  padding: 1rem 1rem 6rem 1rem;
+  margin: 0 0 10rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+@media screen and (max-width: 760px) {
+  .wrapper {
+    padding: 1rem 0;
+  }
+}

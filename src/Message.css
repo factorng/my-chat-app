@@ -1,0 +1,91 @@
+.chat-message {
+    padding: .5rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin: 1rem 0;
+}
+.chat-user {
+    text-align: center;
+    min-width: 5%;
+    order: 1;
+    position: relative;
+}
+.chat-user::after {
+    border-color: transparent transparent transparent  lightgrey;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: -9px
+}
+.chat-user_your-message {
+    text-align: center;
+    min-width: 5%;
+    order: 0;
+    position: relative;
+}
+.chat-user_your-message::after {
+    border-color: transparent rgb(148, 223, 218) transparent transparent  ;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 60px
+}
+.chat-user__avatar {
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+.chat-user__name {
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 0 .5rem;
+}
+.chat-message__button-delete {
+    position: absolute;
+    right: 22px;
+    top: 12px;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgba(0, 0, 0, .3);
+    border: 0;
+    border-radius: 50%;
+    background-image: url('./images/close.png');
+    background-position: center;
+    background-size: cover;
+}
+.chat-message__button-delete:hover::after {
+    content: 'delete';
+    background-color: rgba(0, 0, 0, .2);
+    padding: .5rem;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 25px;
+    right: -15px;
+}
+.chat-message__content {
+    background-color: lightgrey;
+    margin: 0 .5rem;
+    border-radius: 10px;
+    padding: .5rem;
+    flex: 1 1 60%;
+    position: relative;
+    height: 80px;
+}
+.chat-message__content_your-message {
+    background-color: rgb(148, 223, 218);
+}
+.chat-message__time {
+    font-size: .6rem;
+    margin: 0;
+}

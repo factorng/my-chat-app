@@ -1,0 +1,15 @@
+{
+    "git.ignoreLimitWarning": true,
+    "keyboard.touchbar.ignored": [
+      "play",
+      "workbench.action.debug.start",
+      "workbench.action.debug.run",
+    ],
+    "touchBar.foldAll": true,
+    "touchBar.rename": true,
+    "touchBar.copyLinesDownAction": false,
+    "touchBar.closeOtherEditors": false,
+    "touchBar.search": true,
+    "touchBar.terminal": true,
+    "touchBar.unfoldAll": true,
+  }
