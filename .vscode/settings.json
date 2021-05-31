@@ -12,4 +12,10 @@
     "touchBar.search": true,
     "touchBar.terminal": true,
     "touchBar.unfoldAll": true,
+     // Prettier
+     "editor.formatOnSave": true,
+     // Enable per-language
+     "[javascript]": {
+         "editor.formatOnSave": true
+     }
   }
