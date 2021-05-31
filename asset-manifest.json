@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-chat-app/static/css/main.f98f4cef.chunk.css",
+    "main.css": "/my-chat-app/static/css/main.a5c28833.chunk.css",
     "main.js": "/my-chat-app/static/js/main.c7a45341.chunk.js",
     "main.js.map": "/my-chat-app/static/js/main.c7a45341.chunk.js.map",
     "runtime-main.js": "/my-chat-app/static/js/runtime-main.8a32f376.js",
@@ -8,7 +8,7 @@
     "static/js/2.a1487740.chunk.js": "/my-chat-app/static/js/2.a1487740.chunk.js",
     "static/js/2.a1487740.chunk.js.map": "/my-chat-app/static/js/2.a1487740.chunk.js.map",
     "index.html": "/my-chat-app/index.html",
-    "static/css/main.f98f4cef.chunk.css.map": "/my-chat-app/static/css/main.f98f4cef.chunk.css.map",
+    "static/css/main.a5c28833.chunk.css.map": "/my-chat-app/static/css/main.a5c28833.chunk.css.map",
     "static/js/2.a1487740.chunk.js.LICENSE.txt": "/my-chat-app/static/js/2.a1487740.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/my-chat-app/static/media/Inter-Regular.fc49d131.woff",
     "static/media/AddMessage.css": "/my-chat-app/static/media/send.c86bd309.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.8a32f376.js",
     "static/js/2.a1487740.chunk.js",
-    "static/css/main.f98f4cef.chunk.css",
+    "static/css/main.a5c28833.chunk.css",
     "static/js/main.c7a45341.chunk.js"
   ]
 }
